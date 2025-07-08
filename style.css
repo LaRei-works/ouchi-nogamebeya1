@@ -46,3 +46,93 @@ p {
   transform: scale(1.05);
   background-color: #e63c3c;
 }
+.intro {
+  background: #fff;
+  padding: 3rem 2rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+.highlights {
+  background: #f0faff;
+  padding: 3rem 2rem;
+}
+
+.highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.videos iframe {
+  width: 320px;
+  height: 180px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.voices {
+  background: #fff5f5;
+  padding: 3rem 2rem;
+}
+
+.voices h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.reviews blockquote {
+  font-style: italic;
+  margin: 1rem auto;
+  background: #ffecec;
+  padding: 1rem;
+  border-left: 5px solid #ff4f4f;
+  max-width: 600px;
+  border-radius: 8px;
+}
+.faq {
+  background: #f9f9f9;
+  padding: 3rem 2rem;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.faq dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.faq dd {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+.cta-final {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fff0f5;
+}
+
+.cta-final h2 {
+  font-size: 2rem;
+  color: #e43d6f;
+  margin-bottom: 1.5rem;
+}
