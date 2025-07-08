@@ -1,0 +1,48 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  text-align: center;
+  color: #333;
+}
+
+.hero {
+  padding: 4rem 2rem;
+}
+
+.hero-icon {
+  width: 200px;
+  max-width: 80%;
+  margin-bottom: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: #ff4f4f;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.subscribe-btn {
+  display: inline-block;
+  background-color: #ff4f4f;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  transform: scale(1.05);
+  background-color: #e63c3c;
+}
